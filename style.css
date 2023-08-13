@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --Tomato: hsl(4, 100%, 67%);
+    --DarkSlateGrey: hsl(234, 29%, 20%);
+    --CharcoalGrey: hsl(236, 18%, 30%);
+    --Grey: hsl(231, 7%, 60%);
+
+}
+body {
+    display: grid;
+    place-content: center ;
+    font-family: 'Roboto' , sans-serif;
+    background-color: var(--CharcoalGrey);
+}
+
+.intro{
+    position: relative;
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.intro .info {
+    padding: 70px,50px,50px,20px;
+}
+
+h1 {
+    color: var(--DarkSlateGrey);
+    font-size: 3.7rem;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    color: var(--CharcoalGrey);
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+ul{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+li{
+    list-style: none;
+    color: var(--CharcoalGrey);
+    font-weight: 40px;
+    margin-bottom: 15px;
+}
+
+li::before {
+    content: url(./assets/images/icon-list.svg);
+    position: absolute;
+    left: 50px;
+}
+
+.fill {
+    margin-top: 50px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--CharcoalGrey);
+    font-size: 0.8rem;
+
+}
+
+.content .err {
+    display: none;
+    color: var(--Tomato);
+}
+
+.input {
+    
+}
