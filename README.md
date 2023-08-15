@@ -1,4 +1,4 @@
-# Frondev-tuto
+# Frontdev-tuto
 This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor]
 
 ### Built with
