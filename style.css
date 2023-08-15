@@ -90,5 +90,62 @@ li::before {
 }
 
 .input {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     
+}
+
+.input .input {
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    font-weight: bold;
+    border: 1px solid var(--Grey);
+    border-radius: 10px;
+}
+.btn .btn{
+    background-color: var(--CharcoalGrey);
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    height: 50px;
+
+}
+.desc-img {
+    border-radius: 25px;
+
+}
+.mob-img {
+    display: none;
+}
+
+.success {
+
+    display: none;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 30px;
+    width: 40%;
+}
+.success .top img {
+    width: 50px;
+    margin-bottom: 20px;
+
+}
+
+.success .mid {
+
+
 }
